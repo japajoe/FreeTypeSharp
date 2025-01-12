@@ -7,11 +7,12 @@ I've made some changes because I could not get the orignal Nuget package to work
 - Removed the native library resolving at runtime.
 - Renamed the native libraries so they can not possibly collide with system libraries.
 - Recompiled the native library for Linux so it works at least on my Debian installation.
+- Added native libraries for Mac x86_64 and ARM64.
 - Removed all the non-desktop target platforms because I do not feel like maintaining those.
 
 # Installation
 ```
-dotnet add package JAJ.Packages.FreeTypeSharp --version 3.0.3
+dotnet add package JAJ.Packages.FreeTypeSharp --version 3.0.4
 ```
 
 # Note
