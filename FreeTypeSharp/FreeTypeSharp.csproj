@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RootNamespace>FreeTypeSharp</RootNamespace>
+    <AssemblyName>FreeTypeSharp</AssemblyName>
+    <VersionPrefix>3.0.3</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageProjectUrl>https://github.com/ryancheung/FreeTypeSharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ryancheung/FreeTypeSharp</RepositoryUrl>
+    <Authors>ryancheung</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>A modern cross-platform managed FreeType2 library.</Description>
+    <PackageTags>freetype2;netstandard2.0;netstandard2.1;</PackageTags>
+    <PackageId>JAJ.Packages.FreeTypeSharp</PackageId>
+    <Copyright>Copyright 2024 ryancheung</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="runtimes/**" PackagePath="runtimes" Visible="false" />
+  </ItemGroup>
+
+</Project>
