@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeTypeSharp", "FreeTypeSharp\FreeTypeSharp.csproj", "{CDE950DC-025E-413D-7487-FA800B3BFFA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDE950DC-025E-413D-7487-FA800B3BFFA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE950DC-025E-413D-7487-FA800B3BFFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE950DC-025E-413D-7487-FA800B3BFFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE950DC-025E-413D-7487-FA800B3BFFA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B19D3888-F512-4193-95FA-1CC980A3E4B1}
+	EndGlobalSection
+EndGlobal
